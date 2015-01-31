@@ -3,13 +3,13 @@
  
  
 <?php
-$con = mysql_connect("mysql.cis.ksu.edu","cis_id","password");
+$con = mysql_connect("localhost","user","VfWZybe39KhsfMVL");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
   }
  
-mysql_select_db("cis_id", $con);
+mysql_select_db("user", $con);
  
 $sql="INSERT INTO nametable (fname, lname)
 VALUES
