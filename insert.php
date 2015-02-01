@@ -3,7 +3,7 @@
  
  
 <?php
-$con = mysql_connect("localhost","user","jXhmjG4XUStTYRSQ");
+$con = mysql_connect("localhost","user","DbZ9NfMv7BQzLfwG");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
